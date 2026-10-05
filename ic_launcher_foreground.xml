@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Flight arc path -->
+    <path
+        android:pathData="M24,84 C36,84 48,74 62,56 C70,45 76,38 82,34"
+        android:strokeColor="#E11D48"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M26,82 C38,82 49,72 63,54 C71,43 77,36 83,32"
+        android:strokeColor="#FB7185"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round" />
+
+    <!-- Jet / Plane Body ascending at angle -->
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M84,30 L66,35 L62,39 L71,45 L67,49 L60,46 L53,49 L55,44 L51,40 L60,37 L59,32 L66,31 Z" />
+    
+    <!-- Wing highlight and detail -->
+    <path
+        android:fillColor="#FFE4E6"
+        android:pathData="M84,30 L73,34 L66,33 L72,39 L75,37 Z" />
+
+    <!-- Jet trail dots -->
+    <path
+        android:fillColor="#FB7185"
+        android:pathData="M48,68 A2.5,2.5 0 1,1 48,63 A2.5,2.5 0 1,1 48,68 Z" />
+    <path
+        android:fillColor="#FDA4AF"
+        android:pathData="M35,77 A2,2 0 1,1 35,73 A2,2 0 1,1 35,77 Z" />
+    <path
+        android:fillColor="#FECDD3"
+        android:pathData="M26,83 A1.5,1.5 0 1,1 26,80 A1.5,1.5 0 1,1 26,83 Z" />
+
+    <!-- "X" multiplier badge in top-right -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M78,25 L81,21 L84,25 L86,23 L83,19 L87,15 L84,13 L81,17 L78,13 L75,15 L79,19 L76,23 Z" />
+</vector>
